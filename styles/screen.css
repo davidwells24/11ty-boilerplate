@@ -4,7 +4,7 @@ body {
     background: #2D3142;
     margin: 0;
     padding: 0;
-    text-align: center;
+    
 }
 
 header {
@@ -33,22 +33,64 @@ nav ul {
 }
 
 nav ul h1 {
-    margin: auto 38vw auto 0;
+    margin: auto 48vw auto 0;
     font-size: 1.6em;
 }
 
 nav ul li {
     list-style-type: none;
-    margin: auto;
+    margin: auto 0 auto 4%;
 }
 
-nav ul li a {
+a {
     display: inline-block;
     margin: auto;
     padding: 0;
     color: #EAE8FF;
     text-decoration: none;
     font-size: 1.2em;
+}
+
+a:hover {
+    opacity: 50%;
+}
+
+h2 {
+    width: 80%;
+    margin: 1% auto 1% 13%;
+}
+
+.date {
+    width: 80%;
+    margin: auto auto 1% 13%;
+}
+
+.blog_post {
+    display: flex;
+    margin: auto;
+    padding: 0;
+    width: 80%;
+    height: 55vh;
+    overflow: hidden;
+}
+.blog_image {
+    overflow: hidden;
+    margin: auto;
+    padding: 0;
+    width: 44%;
+    height: auto;
+}
+
+div img {
+    width: 100%;
+}
+
+.description {
+    font-size: 1.2em;
+    width: 40%;
+    margin-top: 2%;
+    margin-right: 8%;
+    text-align: justify;
 }
 
 footer {
@@ -60,4 +102,5 @@ footer {
     position: fixed;
     bottom: 0;
     align-content: center;
+    text-align: center;
 }
