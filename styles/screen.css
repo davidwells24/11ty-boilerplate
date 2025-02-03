@@ -32,14 +32,14 @@ nav ul {
     width: 80%;
 }
 
-nav ul h1 {
-    margin: auto 48vw auto 0;
-    font-size: 1.6em;
-}
-
 nav ul li {
     list-style-type: none;
     margin: auto 0 auto 4%;
+}
+
+.h1 {
+    margin: auto 48vw auto 0;
+    font-size: 1.6em;
 }
 
 a {
